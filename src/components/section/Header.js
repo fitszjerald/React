@@ -7,7 +7,7 @@ class Header extends React.Component {
   render(){
     return (
       <div>
-        <nav className="navbar navbar-inverse navbar-fixed-top">
+        <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div className="container">
             <div className="navbar-header">
            
@@ -15,9 +15,9 @@ class Header extends React.Component {
             </div>
             <div id="navbar" className="collapse navbar-collapse">
             <ul className="nav navbar-nav">
-                <li className="active"><Link to="/" >Home</Link></li>
-                <li><Link to="/about" >About</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
+                <li className="nav-item"><Link className='nav-link' to="/" >Home</Link></li>
+                <li className="nav-item"><Link className='nav-link' to="/about" >About</Link></li>
+                <li className="nav-item"><Link className='nav-link' to="/contact">Contact</Link></li>
             </ul>
             </div>
         </div>

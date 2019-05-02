@@ -1,15 +1,15 @@
 import React from 'react';
 
 
-class Home extends React.Component {
+
+class NoMatch extends React.Component {
     render(){
         return(
             <div>
-
-                <h2>Home</h2>
+              <h2>Not found</h2>  
             </div>
         )
     }
 }
 
-export default Home;
+export default NoMatch;
